@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Salesforce Time Improved",
+  "version": "0.1",
+  "description": "Salesforce improved time tracking on ticket update",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "run_at": "document_end",
+    "matches": ["https://pivotal.lightning.force.com/lightning/r/Case/*"]
+  }]
+}
