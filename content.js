@@ -51,8 +51,8 @@ function main (evt) {
 
     function popUpTimer() {
         // Open up the modal of the timer
-        var popUptheTimerModel = document.querySelectorAll("div.flexipageComponent > div.slds-hide.PCCTCaseTimer")
-        popUptheTimerModel[0].classList.remove("slds-hide");
+        var popUptheTimerModel = document.querySelectorAll("header.slds-card__header.slds-grid > div.slds-no-flex > button.slds-button.slds-button_neutral")
+        popUptheTimerModel[0].click();
     }
 
 }
